@@ -1,0 +1,108 @@
+/* Daymio privacy policy — plain, readable document styling. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;
+  color: #111111;
+  line-height: 1.65;
+  font-size: 17px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+}
+
+header {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.app-name {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 8px;
+}
+
+.effective {
+  font-size: 14px;
+  color: #666666;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 650;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul {
+  margin: 0 0 12px 0;
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+a {
+  color: #111111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #555555;
+}
+
+.contact-block {
+  border-left: 3px solid #dddddd;
+  padding: 4px 0 4px 16px;
+  color: #333333;
+}
+
+footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #666666;
+}
+
+footer p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 16px;
+    padding: 32px 20px 48px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+}
