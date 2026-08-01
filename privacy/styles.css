@@ -106,3 +106,37 @@ footer p {
     font-size: 27px;
   }
 }
+
+/* Dark theme: rendered automatically when the OS (and, in the common
+   "system" case, the app) is in dark mode. Single source of truth — the
+   document text is identical, only colors change. */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #16151a;
+    color: #e7e5ea;
+  }
+
+  header,
+  footer {
+    border-color: #2e2c34;
+  }
+
+  .app-name,
+  .effective,
+  footer {
+    color: #9b98a3;
+  }
+
+  a {
+    color: #f0eef4;
+  }
+
+  a:hover {
+    color: #b9b6c2;
+  }
+
+  .contact-block {
+    border-left-color: #3a3742;
+    color: #cbc8d2;
+  }
+}

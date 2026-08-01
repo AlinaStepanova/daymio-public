@@ -1,127 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Privacy Policy for Daymio — the private, on-device period tracking app. Your health data never leaves your device.">
-  <title>Privacy Policy — Daymio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daymio</title>
+  <meta name="description" content="Daymio — the private, on-device period tracker. Your data never leaves your phone.">
+  <style>
+    :root { color-scheme: light dark; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+      background: #ffffff;
+      color: #111111;
+      line-height: 1.6;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+    .app-name {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    .sub { color: #666666; margin: 8px 0 28px; }
+    ul { padding-left: 22px; }
+    li { margin: 8px 0; }
+    a { color: #111111; text-underline-offset: 3px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #16151a; color: #e7e5ea; }
+      .sub { color: #9b98a3; }
+      a { color: #f0eef4; }
+    }
+  </style>
 </head>
 <body>
-
-  <header>
-    <p class="app-name">Daymio</p>
-    <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: July 4, 2026</p>
-  </header>
-
-  <main>
-
-    <section id="summary">
-      <h2>At a glance</h2>
-      <ul>
-        <li><strong>All data stays on your device.</strong> Daymio has no servers and no cloud.</li>
-        <li><strong>No account is required.</strong> No email address, name, or phone number is ever requested.</li>
-        <li><strong>No tracking.</strong> No analytics, no advertising, no third-party data sharing.</li>
-        <li><strong>You can delete everything at any time</strong> from Settings, or by uninstalling the app.</li>
-      </ul>
-    </section>
-
-    <section id="who-we-are">
-      <h2>1. Who we are</h2>
-      <p>Daymio is a period tracking app built around a simple principle: your health data belongs to you, and only to you. The app is developed and published by:</p>
-      <p class="contact-block">
-        Alina Stepanova<br>
-        Email: <a href="mailto:alina.stepanova.work@gmail.com">alina.stepanova.work@gmail.com</a>
-      </p>
-      <p>For the purposes of the EU General Data Protection Regulation (GDPR), the developer named above is the data controller. That said, as this policy explains, Daymio is designed so that we never receive or process your personal data in the first place.</p>
-    </section>
-
-    <section id="data-we-store">
-      <h2>2. The data you record</h2>
-      <p>When you use Daymio, you may record:</p>
-      <ul>
-        <li><strong>Period days</strong> — the dates you mark in the calendar,</li>
-        <li><strong>Notes</strong> — free-text notes you attach to a day,</li>
-        <li><strong>Symptoms and flow level</strong> — the options you select when logging a day,</li>
-        <li><strong>App preferences</strong> — such as your theme and language settings.</li>
-      </ul>
-      <p>All of this information is stored exclusively in a local database on your device. It is never uploaded, synchronized, or transmitted anywhere. There is no Daymio server, no cloud backup operated by us, and no way for us — or anyone else — to access what you record.</p>
-      <p><strong>No predictions, no medical advice.</strong> Daymio deliberately does not forecast your next period, ovulation, or fertile days, and it provides no medical or contraceptive guidance. All statistics describe what you have recorded in the past — never the future. Daymio is not a medical device and must not be relied upon for contraception or family planning; for such questions, please consult a healthcare professional.</p>
-    </section>
-
-    <section id="what-we-dont-collect">
-      <h2>3. What we don't collect</h2>
-      <p>Daymio does <strong>not</strong>:</p>
-      <ul>
-        <li>require or offer user accounts — no email address, name, or phone number is ever requested,</li>
-        <li>use analytics or crash-reporting services,</li>
-        <li>show advertising or embed advertising SDKs,</li>
-        <li>use cookies or similar tracking technologies,</li>
-        <li>collect your location, contacts, photos, or any other device data,</li>
-        <li>share or sell any data to third parties — we have nothing to share.</li>
-      </ul>
-    </section>
-
-    <section id="storage-security">
-      <h2>4. Storage &amp; security</h2>
-      <p>Your entries are kept in a private database inside the app's own storage area (its sandbox), protected by your operating system's security model. Other apps cannot read Daymio's data, and the data is covered by your device's encryption whenever your device is locked with a passcode, fingerprint, or face unlock.</p>
-      <p>Because the data lives only on your device, we strongly recommend protecting your device with a passcode and keeping your operating system up to date.</p>
-      <p><strong>Please note:</strong> since we hold no copy of your data, we cannot restore it for you. If you delete the app or lose your device, your data is gone unless you exported it yourself or it is included in a device backup you control (for example, an encrypted iPhone or Android backup).</p>
-    </section>
-
-    <section id="export">
-      <h2>5. Exporting your data</h2>
-      <p>Daymio lets you export your data as a CSV file. Exports happen only when you actively choose to export, and the file is handed to your device's share sheet — you decide where it goes (a file, an email, a cloud drive, etc.). Anything you do with an exported file is outside the app and under your control. We never receive a copy.</p>
-    </section>
-
-    <section id="purchases">
-      <h2>6. Purchases</h2>
-      <p>Daymio offers optional premium features via in-app purchase. Payments are processed entirely by Apple's App Store or Google Play under their own terms and privacy policies. We never see your payment details.</p>
-      <p>To recognize whether premium is unlocked, the app validates purchases using RevenueCat, a subscription-management service. This involves only an anonymous, randomly generated identifier and purchase receipt data from the store — never your identity or anything you record in the app. You can read more in <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat's privacy policy</a>.</p>
-    </section>
-
-    <section id="your-rights">
-      <h2>7. Your rights</h2>
-      <p>Under the GDPR and similar laws, you have rights to access, correct, export, and erase your personal data. Because Daymio stores everything on your device, you can exercise all of these rights directly, at any time, without asking us:</p>
-      <ul>
-        <li><strong>Access &amp; correction</strong> — open the app; everything you recorded is visible and editable.</li>
-        <li><strong>Portability</strong> — use the CSV export in Settings.</li>
-        <li><strong>Erasure</strong> — use "Delete all data" in Settings, or uninstall the app.</li>
-      </ul>
-      <p>If you believe your rights have been infringed, you also have the right to lodge a complaint with your local data protection authority.</p>
-    </section>
-
-    <section id="children">
-      <h2>8. Children's privacy</h2>
-      <p>Daymio is not specifically directed at children, and we do not knowingly collect personal information from anyone — including children — because the app collects no personal information at all. There are no accounts, no social features, and no advertising.</p>
-      <p>Age ratings for downloading Daymio are set by the Apple App Store and Google Play and are shown on the store listing. Parents or guardians with questions are welcome to contact us at the address below.</p>
-    </section>
-
-    <section id="website">
-      <h2>9. This website</h2>
-      <p>This privacy policy is hosted on GitHub Pages. When you visit this page, GitHub may record technical information such as your IP address in its server logs, as described in <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>. The website itself sets no cookies and contains no analytics or tracking.</p>
-    </section>
-
-    <section id="changes">
-      <h2>10. Changes to this policy</h2>
-      <p>If we ever change how Daymio handles data — for example, by adding an optional cloud backup — we will update this policy, adjust the effective date at the top, and clearly inform you inside the app before any new processing begins. The current version of this policy is always available at this address and from within the app.</p>
-    </section>
-
-    <section id="contact">
-      <h2>11. Contact</h2>
-      <p>Questions, concerns, or feedback about privacy in Daymio? We're happy to hear from you:</p>
-      <p class="contact-block">
-        <a href="mailto:alina.stepanova.work@gmail.com?subject=Daymio%20Privacy">alina.stepanova.work@gmail.com</a>
-      </p>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Daymio — private period tracking</p>
-    <p>&copy; 2026 Alina Stepanova. All rights reserved.</p>
-  </footer>
-
+  <p class="app-name">Daymio</p>
+  <p class="sub">The private, on-device period tracker. Your data never leaves your phone.</p>
+  <ul>
+    <li><a href="privacy/">Privacy Policy</a></li>
+  </ul>
 </body>
 </html>

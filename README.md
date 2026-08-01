@@ -1,6 +1,8 @@
-# daymio-privacy
+# daymio-public
 
-Public hosting for the [Daymio](https://github.com/AlinaStepanova/Daymio) privacy policy via GitHub Pages.
-The app source repo stays private; only this policy page is public.
+Public web pages for the [Daymio](https://github.com/AlinaStepanova/Daymio) period-tracking app, served via GitHub Pages. The app source repo stays private; only these pages are public.
 
-Live: https://alinastepanova.github.io/daymio-privacy/
+- `/privacy/` — privacy policy (linked from the app; used for Play Console, App Store Connect, RevenueCat)
+- `/` — landing / index (placeholder for future transparency + architecture pages)
+
+Plain static HTML, no build step. Dark mode is handled per-page via `prefers-color-scheme`.
